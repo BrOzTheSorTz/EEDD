@@ -32,7 +32,7 @@ VEstaticoInt &VEstaticoInt::operator=(const VEstaticoInt &orig) {
 
     return *this;
 }
-//De mayor a menor
+//De menor a mayor
 void VEstaticoInt::ordenar() {
     std::sort(_v,_v + _numElementos);//El primer, ultimo elemento
 
@@ -66,4 +66,17 @@ VEstaticoInt::~VEstaticoInt() {
 
 }
 
+int VEstaticoInt::getNumElementos() const {
+    return _numElementos;
+}
+
+
+std::ostream &operator<<(std::ostream& os,VEstaticoInt &v){
+
+    for(int i=0;i<v.getNumElementos();++i){
+        os << v[i] <<"-";
+    }
+
+    return os;
+}
 

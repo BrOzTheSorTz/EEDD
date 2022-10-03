@@ -67,6 +67,18 @@ build CMakeFiles/leccion4.dir/VDinamico.cpp.obj: CXX_COMPILER__leccion4_Debug C$
   OBJECT_DIR = CMakeFiles\leccion4.dir
   OBJECT_FILE_DIR = CMakeFiles\leccion4.dir
 
+build CMakeFiles/leccion4.dir/BitSet.cpp.obj: CXX_COMPILER__leccion4_Debug C$:/Users/soria/OneDrive/Escritorio/estudio/EEDD/leccion4/BitSet.cpp || cmake_object_order_depends_target_leccion4
+  DEP_FILE = CMakeFiles\leccion4.dir\BitSet.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\leccion4.dir
+  OBJECT_FILE_DIR = CMakeFiles\leccion4.dir
+
+build CMakeFiles/leccion4.dir/MiExcepcion.cpp.obj: CXX_COMPILER__leccion4_Debug C$:/Users/soria/OneDrive/Escritorio/estudio/EEDD/leccion4/MiExcepcion.cpp || cmake_object_order_depends_target_leccion4
+  DEP_FILE = CMakeFiles\leccion4.dir\MiExcepcion.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\leccion4.dir
+  OBJECT_FILE_DIR = CMakeFiles\leccion4.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target leccion4
@@ -75,7 +87,7 @@ build CMakeFiles/leccion4.dir/VDinamico.cpp.obj: CXX_COMPILER__leccion4_Debug C$
 #############################################
 # Link the executable leccion4.exe
 
-build leccion4.exe: CXX_EXECUTABLE_LINKER__leccion4_Debug CMakeFiles/leccion4.dir/main.cpp.obj CMakeFiles/leccion4.dir/VEstaticoInt.cpp.obj CMakeFiles/leccion4.dir/VDinamico.cpp.obj
+build leccion4.exe: CXX_EXECUTABLE_LINKER__leccion4_Debug CMakeFiles/leccion4.dir/main.cpp.obj CMakeFiles/leccion4.dir/VEstaticoInt.cpp.obj CMakeFiles/leccion4.dir/VDinamico.cpp.obj CMakeFiles/leccion4.dir/BitSet.cpp.obj CMakeFiles/leccion4.dir/MiExcepcion.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\leccion4.dir

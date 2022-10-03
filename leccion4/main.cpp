@@ -4,8 +4,10 @@
 //
 
 #include <iostream>
+#include <cmath>
 #include "VEstaticoInt.h"
 #include "VDinamico.h"
+#include "BitSet.h"
 
 int main(){
 
@@ -33,6 +35,22 @@ int main(){
     for(int i=0;i<=30;++i){
         edades.elimina();
     }
+
+
+
+    BitSet Cajalandalus(23760);
+    BitSet Cajalquivir(23660);
+
+    Cajalandalus.inserta(18003).inserta(18170).inserta(23005).inserta(23760);
+    Cajalquivir.inserta(23006).inserta(21730).inserta(21609).inserta(18003);
+//Lo anterior no se puede hacer porque para que el conjunto de bits funciones
+//adecuadamente, los datos deben estar agrupados por orden
+
+
+
+
+
+
 
     return 0;
 }
